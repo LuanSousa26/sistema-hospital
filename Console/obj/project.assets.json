@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Classes/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Classes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Classes.dll": {}
+        }
       }
     }
   },
@@ -656,10 +666,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Classes/1.0.0": {
+      "type": "project",
+      "path": "../Classes/Classes.csproj",
+      "msbuildProject": "../Classes/Classes.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Classes >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -670,11 +686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Console\\Console.csproj",
+      "projectUniqueName": "C:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Console\\Console.csproj",
       "projectName": "Console",
-      "projectPath": "c:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Console\\Console.csproj",
+      "projectPath": "C:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Console\\Console.csproj",
       "packagesPath": "C:\\Users\\bruno afonso\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Console\\obj\\",
+      "outputPath": "C:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -692,7 +708,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Classes\\Classes.csproj": {
+              "projectPath": "C:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Classes\\Classes.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
