@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="c:\Users\LUAN\Desktop\sistema-petshop\Classes\Classes.csproj" />
+    <ProjectReference Include="..\Classes\Classes.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
