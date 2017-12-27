@@ -35,7 +35,11 @@ namespace Classes
 
      public void Consultar()
         {
-            throw new System.NotImplementedException();
+                //Array de String's que recebe a leitura de todas as linhas do arquivo csv  
+                string[] Leitura=File.ReadAllLines(@"../Repositorio/Dono.csv");
+
+                foreach(string Dono in Leitura)
+                      Console.WriteLine(Dono);
         }
     }
 }

@@ -1,7 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Classes\Classes.csproj" />
+    <ProjectReference Include="c:\Users\LUAN\Desktop\sistema-petshop\Classes\Classes.csproj" />
+    <ProjectReference Include="c:\Users\LUAN\Desktop\sistema-petshop\Utilidades\Utilidades.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
