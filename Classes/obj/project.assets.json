@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Classes\\Classes.csproj",
+      "projectUniqueName": "c:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Classes\\Classes.csproj",
       "projectName": "Classes",
-      "projectPath": "C:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Classes\\Classes.csproj",
+      "projectPath": "c:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Classes\\Classes.csproj",
       "packagesPath": "C:\\Users\\bruno afonso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Classes\\obj\\",
+      "outputPath": "c:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Classes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
