@@ -177,30 +177,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruno afonso\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\lalvess\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Classes\\Classes.csproj",
+      "projectUniqueName": "C:\\Users\\lalvess\\Desktop\\Projetos\\sistema-petshop\\Classes\\Classes.csproj",
       "projectName": "Classes",
-      "projectPath": "C:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Classes\\Classes.csproj",
-      "packagesPath": "C:\\Users\\bruno afonso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno afonso\\projetos\\sistema-petshop\\Classes\\obj\\",
+      "projectPath": "C:\\Users\\lalvess\\Desktop\\Projetos\\sistema-petshop\\Classes\\Classes.csproj",
+      "packagesPath": "C:\\Users\\lalvess\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lalvess\\Desktop\\Projetos\\sistema-petshop\\Classes\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bruno afonso\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\lalvess\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -220,7 +214,7 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },

@@ -153,5 +153,13 @@ namespace Util {
                 return "CPF invalido";
             }
         }
+
+           public string ConsultarDono()
+           {
+               string[] Leitura=File.ReadAllLines(@"../Repositorio/Dono.csv");
+               // a resolver
+                foreach(string Dono in Leitura)
+                      Console.WriteLine(Dono);
+           }
     }
 }

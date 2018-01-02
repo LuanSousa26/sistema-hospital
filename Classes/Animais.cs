@@ -7,6 +7,7 @@ namespace classes
         public int Id{ get; set; }
         public string Nome{ get; set; }
         public string Dono{ get; set; }
+        public string Raca{ get;set;  }
         public string Tipo{ get; set; }
         public double Peso{ get; set; }
         public int Idade{ get; set; }
@@ -17,11 +18,12 @@ namespace classes
             
         }
 
-        public Animais(int Id, string Nome, string Dono, string Tipo, double Peso, int Idade, DateTime Data_cadastro)
+        public Animais(int Id, string Nome, string Dono,string Raca, string Tipo, double Peso, int Idade, DateTime Data_cadastro)
         {
             this.Id = Id;
             this.Nome = Nome;
             this.Dono = Dono;
+            this.Raca=Raca;
             this.Tipo = Tipo;
             this.Peso = Peso;
             this.Idade = Idade;

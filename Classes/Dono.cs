@@ -13,7 +13,10 @@ namespace Classes
         private string Email;
         
 
-        
+        public Dono()
+        {
+            
+        }
 
         public Dono(string Nome,string Documento,int Idade,string Email)
         {
@@ -25,12 +28,23 @@ namespace Classes
 
        public void Cadastrar()
         {
-            StreamWriter SalvaDono=new StreamWriter(@"../Repositorio/Dono.csv",true);
-            SalvaDono.Write(Nome+";");
-            SalvaDono.Write(Documento+";");
-            SalvaDono.Write(Idade+";");
-            SalvaDono.WriteLine(Email);
-            SalvaDono.Close();
+
+            try
+            {
+        
+                StreamWriter SalvaDono=new StreamWriter(@"../Repositorio/Dono.csv",true);
+                SalvaDono.Write(Nome+";");
+                SalvaDono.Write(Documento+";");
+                SalvaDono.Write(Idade+";");
+                SalvaDono.WriteLine(Email);
+                SalvaDono.Close();
+                System.Console.WriteLine("Dados Cadastrados com sucesso!");
+            }
+            catch
+            {
+                System.Console.WriteLine("\n Ocorreu um erro no cadastro, Por favor tente novamente!");
+            }
+           
         }
 
      public void Consultar()
